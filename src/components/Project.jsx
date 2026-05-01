@@ -26,6 +26,26 @@ const Project = () => {
       }
     },
     {
+  image: '/images/teamtrackr.png',
+  title: 'TeamTrackr',
+  details: {
+    technologies: ['React.js', 'JavaScript', 'Node.js', 'MongoDB', 'Tailwind CSS', 'Express.js'],
+    description: 'A team management and productivity tracking platform that helps teams collaborate efficiently by enabling task assignment, progress monitoring, and real-time updates. Designed with a responsive UI and optimized backend to ensure smooth workflow and scalability.',
+    demoLink: 'https://team-trackr-j4yc.vercel.app/login',
+    codeLink: 'https://github.com/SHREYAV123/TeamTrackr'
+  }
+},
+{
+  image: '/images/vismatch.png',
+  title: 'VisMatch',
+  details: {
+    technologies: ['React.js', 'TypeScript', 'Node.js', 'MongoDB', 'Tailwind CSS', 'TensorFlow.js'],
+    description: 'An AI-powered visual matching platform that allows users to find similar images based on uploaded inputs. It leverages intelligent matching algorithms to compare visual features and deliver accurate results, providing a fast and intuitive user experience.',
+    demoLink: 'https://vis-match.vercel.app/',
+    codeLink: 'https://github.com/SHREYAV123/VisMatch'
+  }
+},
+    {
       image: '/images/bloghive.jpeg',
       title: 'Blog-Hive',
       details: {
