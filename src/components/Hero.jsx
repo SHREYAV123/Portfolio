@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/resume.pdf'; // Ensure resume.pdf is in the public folder
+    link.href = '/Resume1.pdf'; // Ensure resume.pdf is in the public folder
     link.download = 'ShreyaSahu_Resume.pdf';
     link.click();
   }
@@ -62,7 +62,7 @@ const Hero = () => {
             <div className='hidden lg:block'>
                 <figure className='w-full max-w-[480px] ml-auto rounded-[60px] overflow-hidden bg-gradient-to-t from-sky-400 via-25% via-sky-600/40 to-65%'>
                     <img src="
-                    /images/d.png" alt="Shreya Sahu"  className='w-full h-[600px] mt-0 '/>
+                    /images/e.jpeg" alt="Shreya Sahu"  className='w-[500px] h-[700px] mt-0 '/>
                      {/* /Portfoliopic.jpg */}
                 </figure>
             </div>
